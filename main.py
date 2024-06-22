@@ -1,7 +1,8 @@
-def do_something(parameter):
-    print(f"Parameter: {parameter}")
+def do_something(name, roll_no):
+    print(f"Name: {name}, Roll No. {roll_no}")
 
 
 if __name__ == "__main__":
-    parameter = "rajendra baskota is a very handsome guy....."
-    do_something(parameter=parameter)
+    name = "rajendra baskota is a very handsome guy....."
+    roll_no = 21
+    do_something(name, roll_no)
